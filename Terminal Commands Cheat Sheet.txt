@@ -1,0 +1,38 @@
+Terminal Commands
+
+Bash
+
+cd 
+ls
+mkdir
+clear
+mv 
+cp
+rm
+rmdir -rf
+nano 
+
+Command Prompt
+
+ls -la = dir /a
+clear = cls
+nano = notepad
+change directory = cd
+for files = del
+for directories = rmdir /s /q
+copy file = copy <source-file> <destination>
+copy directory = xcopy <source-file> <destination> /E /I
+move file or directory = move <source> <destination>
+
+Powershell
+
+ls -Force
+clear
+nano = notepad
+cd
+for files = Remove-Item 
+for directories = Remove-Items -Recure -Force
+copy file = Copy-Item <source> <destination>
+copy directory = Copy-Item <source-directory> <destination> -Recurse
+move file or directory = Move-Item <source> <destination>
+

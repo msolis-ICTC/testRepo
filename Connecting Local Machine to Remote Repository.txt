@@ -1,0 +1,25 @@
+Connecting Local Machine git Repo to Github
+Simplest Way - Create Empty Repo on Github
+
+git init
+	make code
+git add .
+git commit -m "message"
+
+git push origin master 
+	check error
+
+git remote add origin <remote-repo-url>
+
+check connected repo's using 
+
+git remote -v
+	lets you see all the remote repo's your connected to.
+
+git push origin master
+
+to shorten back to just git push
+
+run once, then all future push commands be just git push
+
+git push -u origin master

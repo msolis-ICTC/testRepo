@@ -1,0 +1,40 @@
+Git Commands
+
+git init -> Initializes git repository
+git clone <github-repo-url> -> Clones code workspace from remote repo
+git add <file-name> -> Stages changes in selected file to next commit
+git commit -m "Message" -> Saves changes within local git repository
+git push -> Pushes changes to remote repository
+git pull -> Pulls changes from remote repository
+
+---------------------------------------------------------------------
+
+Other Tricks:
+	git add . -> The dot adds all changed files in current 
+workspace to next commit
+	git log -> Lets you look at your history of commits within a
+repository
+	git log --oneline -> Lets you look at the shortened version of
+your commit history within a repository
+	git status -> Lets you know what files have been changed and 
+wether or not they've been staged for your next commit
+	git remote add <remote-repo-name> <repo-url> -> Lets you add 
+another remote repository to your current workspace when working 
+between multiple remote repos
+
+----------------------------------------------------------------------
+
+Git Rules:
+	Every commit must have a message attached to it. Doesnt matter
+what the message is so long as its there. Use this to your advantage
+to give description to every change you make over time.
+	To push a change to remote repository you must first commit, if 
+you dont commit before pushing, your staged changes will not be added to
+the remote repo.
+
+
+
+
+
+
+

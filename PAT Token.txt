@@ -1,0 +1,27 @@
+PAT TOKEN
+Personal Access Token
+
+Sign In
+Press User Profile Picture (top right corner)
+Press Settings
+Scroll Down and press Developer Settings (left menu bar)
+Press Personal Access Tokens
+Press Tokens(classic)
+Generate New Token
+	Generate New Token Classic
+Enter Password
+Give it a name (ICT Club Workshop)
+	Check repo
+	Check write:packages
+	Generate Token
+
+Go easy on the permissions to be on the safe side. 
+A key with every permission can become a security risk if it falls
+into the wrong hands.
+
+Copy PAT Token
+
+ghp_aXdd0H9NSFixc3lhUDCDo5BXJ4MidU3KMOE
+
+Save this somewhere safe so you can update you repository from 
+any location.
