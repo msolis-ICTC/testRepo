@@ -20,6 +20,6 @@ git push origin master
 
 to shorten back to just git push
 
-run once, then all future push commands be just git push
+run once, then all future push commands just be git push
 
 git push -u origin master
